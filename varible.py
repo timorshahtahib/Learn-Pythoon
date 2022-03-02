@@ -22,3 +22,15 @@ print(a)
 print(b)
 print(c)
 print(d)
+
+
+
+#One Value to Multiple Variables
+print('One Value to Multiple Variables')
+
+a=b=c=d=2
+
+print(a)
+print(b)
+print(c)
+print(d)
