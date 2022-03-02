@@ -48,3 +48,19 @@ print(y)
 print(z)
 
 
+
+
+#  global varible
+
+
+print('global varioble')
+
+
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+print(x)
