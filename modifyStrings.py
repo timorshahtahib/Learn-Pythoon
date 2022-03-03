@@ -9,5 +9,4 @@ print(a.lower())
 print(a.strip())
 
 #Replace String
-
 print(a.replace("H","j"))
