@@ -7,3 +7,7 @@ print(a.lower())
 
 #Remove Whitespace
 print(a.strip())
+
+#Replace String
+
+print(a.replace("H","j"))
