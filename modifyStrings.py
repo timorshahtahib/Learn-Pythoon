@@ -1,6 +1,9 @@
 #Upper Case
-a = "Hello, World!"
+a = "    Hello,World!   "
 print(a.upper())
 
 #Lower Case
 print(a.lower())
+
+#Remove Whitespace
+print(a.strip())
