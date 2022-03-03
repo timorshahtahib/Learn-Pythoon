@@ -5,3 +5,9 @@ print(b[2:5])#llo
 
 b = "Hello, World!"
 print(b[:5])  #Hello
+
+
+#Slice To the End
+
+b = "Hello, World!"
+print(b[2:])
