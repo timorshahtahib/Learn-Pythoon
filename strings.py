@@ -28,3 +28,15 @@ print(len(c))
 
 txt = "The best things in life are free!"
 print("best" in txt)
+
+
+#string check
+
+
+txt = "The best things in life are free!"
+if "best" in txt:
+    print("true, its ok ")
+
+
+
+#Check if NOT
