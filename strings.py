@@ -21,3 +21,10 @@ for x in b:
 c="timor"
 
 print(len(c))
+
+
+#string chencking
+
+
+txt = "The best things in life are free!"
+print("best" in txt)
