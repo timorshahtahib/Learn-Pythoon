@@ -40,3 +40,9 @@ if "best" in txt:
 
 
 #Check if NOT
+
+txt = "The best things in life are free!"
+
+
+if "the" not in txt:
+    print("fail , text not found ")
