@@ -10,4 +10,11 @@ print(b[:5])  #Hello
 #Slice To the End
 
 b = "Hello, World!"
-print(b[2:])
+print(b[2:])#llo, World!
+
+
+
+#Negative Indexing
+
+b = "Hello, World!"
+print(b[-5:-2])#orl
