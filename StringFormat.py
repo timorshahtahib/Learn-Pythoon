@@ -1,4 +1,3 @@
-from cgitb import text
 
 
 age=24
