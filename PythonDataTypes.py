@@ -41,8 +41,3 @@ print(type(b))
 print(type(c))
 
 print(random.randrange(1,20))
-print(random.randrange(1,20))
-print(random.randrange(1,20))
-print(random.randrange(1,20))
-print(random.randrange(1,20))
-print(random.randrange(1,20))
