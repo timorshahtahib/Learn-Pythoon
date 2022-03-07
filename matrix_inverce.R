@@ -12,10 +12,13 @@ a3 <- c(5, 6, 0)
 A <- rbind(a1, a2, a3)
 
 # print the original matrix
+print("Matrix")
 print(A)
 
 # Use the solve() function
 # to calculate the inverse.
+
+print("Inverce Of Matrix")
 T1 <- solve(A)
 
 # print the inverse of the matrix.
