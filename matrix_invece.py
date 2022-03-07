@@ -5,9 +5,16 @@
 import numpy as np
 
 # Taking a 3 * 3 matrix
-A = np.array([[6, 1, 1],
-			[4, -2, 5],
-			[2, 8, 7]])
+A = np.array([[1, 2, 3],
+			[0, 1, 4],
+			[5, 6, 0]])
 
-# Calculating the inverse of the matrix
+
+
+
+print("Matrix")
+print(A)
+print("\n")
+print("Inverce Of Matrix")
+# Calculating the invesre of the matrix
 print(np.linalg.inv(A))
