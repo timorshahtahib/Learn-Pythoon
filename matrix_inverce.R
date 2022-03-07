@@ -2,9 +2,9 @@
 
 # Create 3 different vectors
 # using combine method.
-a1 <- c(1, 2, 3)
-a2 <- c(0, 1, 4)
-a3 <- c(5, 6, 0)
+a1 <- c(1, 5, 3)
+a2 <- c(0, 3, 4)
+a3 <- c(5, 3, 3)
 
 # bind the three vectors into a matrix
 # using rbind() which is basically
@@ -23,3 +23,7 @@ T1 <- solve(A)
 
 # print the inverse of the matrix.
 print(T1)
+
+
+print(T1%*%A)
+
