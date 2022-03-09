@@ -7,3 +7,11 @@ for x in fruits:
 ## cooment
 
 
+a="ADFFGFG"
+b=a.lower()
+print(b)
+
+
+
+
+
