@@ -18,8 +18,8 @@ def fib(n):
         result.append(a)
         a,b=b,a+b
         
-    print(result)
+    return result
 
     
     
-fib(100)
+print(fib(100))
