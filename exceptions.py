@@ -31,15 +31,15 @@ def sum(a,b):
     
     
 try:
-      fn=open('text.txt','r')
+    fn=open('text.txt','a')
 
 except FileNotFoundError as fn:
-      print(fn)
+    print(fn)
 except IOError as io_e:
-        print(io_e)
+    print(io_e)
 else:
-        print("file opened")
-        fn.close()
+    print("file opened")
+    fn.close()
         
         
       
