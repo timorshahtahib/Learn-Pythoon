@@ -8,10 +8,20 @@ def sum(a,b):
 # print(sum(1,0))
 
 
-try:
-     print(sum(1,12))
+# try:
+#      print(sum(1,12))
  
-except AssertionError as error:
-    print("assertion error",error)
-except:
-  print('An exception occurred')
+# except AssertionError as error:
+#     print("assertion error",error)
+# except:
+#   print('An exception occurred')
+
+
+
+try :
+    x=10
+    if x<12:
+        raise Exception("some ting wrong")
+except Exception as ex:
+    print("rese exception ", ex)
+    
